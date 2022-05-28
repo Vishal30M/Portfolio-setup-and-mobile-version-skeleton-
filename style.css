@@ -5,11 +5,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.nav-bar {
+.nav-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 92px;
+  height: 44px;
   background-repeat: no-repeat;
   background-position: 20px 60px;
 }
@@ -69,6 +69,7 @@ body {
   line-height: 24px;
   color: #7f8cff;
   padding: 0 24px;
+  text-decoration: none;
 }
 
 .social-link {
@@ -76,6 +77,9 @@ body {
   list-style: none;
   justify-content: flex-start;
   align-items: center;
+  padding: 0 24px;
+  width: 170.17px;
+  height: 20px;
 }
 
 .social-link li {
@@ -87,5 +91,5 @@ body {
 }
 
 .content {
-  background-image: url(/image/header-shapes\ mobile.png);
+  background-image: url(/image/background.png);
 }
